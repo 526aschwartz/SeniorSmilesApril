@@ -1,0 +1,41 @@
+.navbar {
+    background-color: pink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h2 {
+    text-align: center;
+    padding-top: 35px;
+    font-family: "crassula", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+  }
+  
+  .event1 {
+    font-size: 50px;
+  }
+  
+  .event2 {
+    font-size: 50px;
+  }
+  
+  .event3 {
+    font-size: 50px;
+    background-color: pink;
+  }
