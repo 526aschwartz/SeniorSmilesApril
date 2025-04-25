@@ -2,21 +2,12 @@
     background-color: #FF75CC;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.home-title{
+  text-align: center;
+  margin-top: 20%;
+  color: #FF75CC;
+  font-size: 70px;
+}
 
 h2 {
     text-align: center;
@@ -65,7 +56,7 @@ h2 {
   height: 354px;
   perspective: 1000px;
   font-family: sans-serif;
-  margin-top: 50%;
+  margin-top: 10%;
 }
 
 .title {
@@ -73,6 +64,14 @@ h2 {
   font-weight: 900;
   text-align: center;
   margin: 0;
+}
+
+.title-descirption {
+  font-size: 1.2em;
+  font-weight: 900;
+  text-align: center;
+  margin: 0;
+  text-shadow: 1.5px 1.5px #000000;
 }
 
 .flip-card-inner {
@@ -112,4 +111,8 @@ h2 {
   background: linear-gradient(120deg, #FFD9F1 30%, #ED47B0 88%, #FF75CC 78%);
   color: white;
   transform: rotateY(180deg);
+}
+
+#imageContainer {
+  border-radius: 3px;
 }
