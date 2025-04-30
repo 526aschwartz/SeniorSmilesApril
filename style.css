@@ -2,11 +2,31 @@
     background-color: #FF75CC;
 }
 
+.navbar-brand {
+  color: white;
+  font-family: "sysfalso", sans-serif;
+font-weight: 400;
+font-style: italic;
+font-size: 40px;
+}
+
+.nav-link {
+  font-family: "ivyepic-variable", sans-serif;
+font-variation-settings: "slnt" 0, "wght" 800, "wdth" 100;
+font-size: 30px;
+color: white;
+}
+
 .home-title{
   text-align: center;
-  margin-top: 20%;
-  color: #FF75CC;
-  font-size: 70px;
+  margin-top: 15%;
+  color: black;
+  font-size: 80px;
+  font-family: "sysfalso", sans-serif;
+font-weight: 400;
+font-style: italic;
+text-shadow: 3px 3px #ED47B0;
+
 }
 
 h2 {
