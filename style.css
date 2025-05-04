@@ -20,12 +20,12 @@ color: white;
 .home-title{
   text-align: center;
   margin-top: 15%;
-  color: black;
+  color: #ED47B0;
   font-size: 80px;
   font-family: "sysfalso", sans-serif;
 font-weight: 400;
 font-style: italic;
-text-shadow: 3px 3px #ED47B0;
+text-shadow: 3px 3px black;
 
 }
 
