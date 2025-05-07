@@ -26,6 +26,12 @@ function generateRandomImage() {
 
     // Add the image to the container
     imageContainer.appendChild(imgElement);
+
+    // Apply border using forEach
+    const allImages = imageContainer.querySelectorAll('img');
+    allImages.forEach(img => {
+        img.style.border = '2px solid black';
+    });
 }
 
 const images = document.querySelectorAll('img')
