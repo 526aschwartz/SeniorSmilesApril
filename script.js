@@ -22,10 +22,10 @@ function generateRandomImage() {
     // Add image to container
     imageContainer.appendChild(imgElement);
 
-    // Apply black border to all images (only one in this case) using forEach
+    // black border
     const allImages = imageContainer.querySelectorAll('img');
     allImages.forEach(img => {
-        img.style.border = '2px solid black';
+        img.style.border = '3px solid black';
     });
 }
 
