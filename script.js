@@ -16,7 +16,6 @@ function generateRandomImage() {
     // Create new image
     const imgElement = document.createElement("img");
     imgElement.src = images[randomIndex];
-    imgElement.alt = "Random Image";
     imgElement.classList.add("img-fluid");
 
     // Add image to container
