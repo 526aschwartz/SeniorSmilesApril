@@ -34,11 +34,5 @@ function generateRandomImage() {
     });
 }
 
-const images = document.querySelectorAll('img')
-
-images.forEach(function(img){
-    img.style.border = '2px solid black'
-}
-)
 // 3 seconds
 setInterval(generateRandomImage, 3000);
